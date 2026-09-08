@@ -46,6 +46,7 @@ Tip: keep an eye on the green energy bar — when it’s very low, you move slow
 ## Vision
 Lumberjack Attack is a solo passion project. All pixel art, sound, music, and gameplay are all my own creation and will continue to be what adds on to this project.
 My goal for this project is to create a refined playable RPG title that I am happy with, and I can publish on steam. Aiming for a steam release sometime in 2027.
+
 **Direction after 0.1 preparing for 0.2**
 - New area: Aspen Forest
 - First dungeon inside the Aspen Forest
