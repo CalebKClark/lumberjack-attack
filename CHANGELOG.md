@@ -4,9 +4,12 @@
 
 First playtest release.
 
-- Homestead loop: chop, craft, place, sleep
+- Foraging, Fishing, Sleeping to skip the day
 - Energy and food
 - Fishing minigame + 3 fish
 - Cabin interior and homestead locations
-- Crafting, collections, skills
+- Pine Tree
+- Crafting: Chest, Wood Chipper, Compact Pine Wood, Pine Axe.
+- Several items
+- Inventory, Skills, Collections, Stats
 - Save / load / settings
