@@ -1,0 +1,104 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'eclipse'
+}
+
+group = 'lumberjack'
+version = '0.1.0'
+
+ext {
+    gdxVersion = '1.12.1'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "com.badlogicgames.gdx:gdx:${gdxVersion}"
+    implementation "com.badlogicgames.gdx:gdx-backend-lwjgl3:${gdxVersion}"
+    runtimeOnly "com.badlogicgames.gdx:gdx-platform:${gdxVersion}:natives-desktop"
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+application {
+    mainClass = 'lumberjack.gdx.DesktopLauncher'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+        }
+        resources {
+            srcDirs = ['resources']
+        }
+    }
+}
+
+tasks.register('syncAssets', Copy) {
+    from 'resources'
+    into 'assets'
+}
+
+tasks.named('run') {
+    dependsOn syncAssets
+    workingDir = project.projectDir
+}
+
+tasks.named('compileJava') {
+    dependsOn syncAssets
+}
+
+run {
+    standardInput = System.in
+}
+
+/** Fat jar for buddy playtests (assets + deps + natives on the classpath). */
+tasks.register('playtestJar', Jar) {
+    dependsOn classes, syncAssets
+    archiveBaseName = 'LumberJackAttack'
+    archiveVersion = '0.1'
+    archiveClassifier = ''
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+    manifest {
+        attributes(
+                'Main-Class': 'lumberjack.gdx.DesktopLauncher',
+                'Implementation-Title': 'LumberJack Attack',
+                'Implementation-Version': '0.1'
+        )
+    }
+
+    from sourceSets.main.output
+    from {
+        configurations.runtimeClasspath.collect { file ->
+            file.isDirectory() ? file : zipTree(file)
+        }
+    }
+    exclude 'META-INF/*.SF', 'META-INF/*.DSA', 'META-INF/*.RSA'
+}
+
+/** Zip your buddy can download: jar + run.bat + README (World Edit disabled). */
+tasks.register('distPlaytest', Zip) {
+    dependsOn playtestJar
+    archiveFileName = 'LumberJackAttack-0.1.zip'
+    destinationDirectory = layout.buildDirectory.dir('dist')
+
+    into('LumberJackAttack-0.1') {
+        from(tasks.named('playtestJar').flatMap { it.archiveFile }) {
+            rename { 'LumberJackAttack-0.1.jar' }
+        }
+        from('dist-playtest/run.bat')
+        from('dist-playtest/README.txt')
+    }
+
+    doLast {
+        println "Playtest zip ready: ${archiveFile.get().asFile.absolutePath}"
+    }
+}

@@ -1,0 +1,12 @@
+item_id,weight,min_depth,speed,spawn_kind
+
+bass,0.6,0,1,fish
+
+trout,0.3,200,3,fish
+
+perch,0.1,500,5,fish
+
+trash,1.0,0,0,trash
+
+rusty_can,1.0,0,0,trash
+

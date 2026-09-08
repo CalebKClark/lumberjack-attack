@@ -1,0 +1,2 @@
+id,name,max_health,contact_damage,speed,drop_item_id,drop_quantity,width,height,r,g,b,hit_flash_ms,contact_cooldown_ms,combat_xp
+slime,Slime,10,5,1,slimeball,1,12,12,50,200,50,200,800,1

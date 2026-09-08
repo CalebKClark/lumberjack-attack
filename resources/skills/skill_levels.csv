@@ -1,0 +1,76 @@
+skill,level,reward
+foraging,1,Identify common wild resources
+foraging,2,Slightly faster gathering rhythm
+foraging,3,Improved log recovery from small trees
+foraging,4,Notice extra forage nodes nearby
+foraging,5,Unlock seasoned forager title and +5% bonus log chance
+foraging,6,Cleaner axe swings on softwood
+foraging,7,Reduced stamina cost while chopping
+foraging,8,Spot hidden berry patches
+foraging,9,Better odds for double log drops
+foraging,10,Unlock forest scout milestone and rare sap chance
+foraging,11,Quicker tree regrowth awareness
+foraging,12,Improved pine log quality
+foraging,13,Extra foraging XP from hardwood
+foraging,14,Find mushrooms in shaded tiles
+foraging,15,Unlock master gatherer milestone and craftable forage kit
+foraging,16,Identify diseased trees before chopping
+foraging,17,Chance for bonus seed drops
+foraging,18,Reduced axe wear on choppable tiles
+foraging,19,Improved rare log discovery
+foraging,20,Unlock wilderness expert milestone and map forage hints
+foraging,21,Harvest multiple soft materials at once
+foraging,22,Track animal trails while foraging
+foraging,23,Bonus XP from every choppable tile
+foraging,24,Legendary forager recognition
+foraging,25,Unlock grand forager milestone and max foraging mastery
+combat,1,Basic self-defense stance
+combat,2,Improved hit timing
+combat,3,Extra damage against slimes
+combat,4,Reduced hit recovery time
+combat,5,Unlock brawler milestone and +5% crit chance
+combat,6,Stronger follow-up attacks
+combat,7,Better spacing against swarms
+combat,8,Reduced contact damage taken
+combat,9,Improved knockback control
+combat,10,Unlock fighter milestone and combo finisher unlock
+combat,11,Extra health from combat training
+combat,12,Faster attack recovery
+combat,13,Bonus damage at low health
+combat,14,Improved defense while moving
+combat,15,Unlock warrior milestone and parry window unlock
+combat,16,Critical hits restore a sliver of health
+combat,17,Bonus XP from elite enemies
+combat,18,Reduced enemy contact cooldown impact
+combat,19,Improved reach against large foes
+combat,20,Unlock champion milestone and battle shout ability
+combat,21,Stacking damage on repeated hits
+combat,22,Chance to stagger enemies
+combat,23,Bonus defense during hit flash
+combat,24,Pre-battle adrenaline boost
+combat,25,Unlock legend milestone and max combat mastery
+fishing,1,Learn basic cast timing
+fishing,2,Steadier bobber control
+fishing,3,Slightly faster bite response
+fishing,4,Improved trash avoidance
+fishing,5,Unlock angler milestone and +5% fishing speed
+fishing,6,Better hook movement underwater
+fishing,7,Extra time before line snap
+fishing,8,Improved common fish catch rate
+fishing,9,Bonus XP from blue fish
+fishing,10,Unlock river runner milestone and deeper spawn preview
+fishing,11,Reduced minigame descent speed variance
+fishing,12,Better odds for green fish
+fishing,13,Extra fishing speed while standing still
+fishing,14,Spot fish schools earlier
+fishing,15,Unlock deep water milestone and rare bait recipe
+fishing,16,Improved red fish catch odds
+fishing,17,Bonus inventory space for fish
+fishing,18,Less trash in shallow water
+fishing,19,Extra XP from every catch
+fishing,20,Unlock master angler milestone and treasure fish chance
+fishing,21,Hook moves faster at depth
+fishing,22,Improved milestone fish rewards
+fishing,23,Bonus fishing speed cap room
+fishing,24,Legendary angler recognition
+fishing,25,Unlock grand angler milestone and max fishing mastery

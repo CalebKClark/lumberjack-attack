@@ -1,0 +1,5 @@
+recipe_id,display_name,category,output_item_id,output_quantity,ingredients,sort_order,unlock_item_id
+wood_chipper,Wood Chipper,foraging,wood_chipper,1,pine_log:25,0,
+chest,Chest,misc,chest,1,pine_log:50,0,
+compact_pine_wood,Compact Pine Wood,foraging,compact_pine_wood,1,pine_log:250,1,pine_log
+pine_axe,Pine Axe,foraging,pine_axe,1,starter_axe:1;compact_pine_wood:3,2,pine_log

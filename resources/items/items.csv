@@ -1,0 +1,16 @@
+id,name,category,max_stack,r,g,b,tool_type,bonus_damage,bonus_crit_chance,bonus_crit_multiplier,bonus_max_health,bonus_defense,bonus_fishing_speed,fishing_xp,tree_damage,food_health,food_energy
+starter_axe,Starter Axe,tool,1,192,192,192,axe,3,5,0,0,0,0,0,1,0,0
+starter_rod,Starter Rod,tool,1,180,140,90,rod,0,0,0,0,0,5,0,0,0,0
+pine_axe,Pine Axe,tool,1,180,140,70,axe,5,8,0,0,0,0,0,2,0,0
+pine_log,Pine Log,material,999,101,67,33,none,,,,,,0,0,0,0,0
+compact_pine_wood,Compact Pine Wood,material,999,120,80,40,none,,,,,,0,0,0,0,0
+wood_chips,Wood Chips,currency,999,160,120,70,none,,,,,,0,0,0,0,0
+wood_chipper,Wood Chipper,placeable,999,120,85,55,none,,,,,,0,0,0,0,0
+chest,Chest,placeable,999,139,90,43,none,,,,,,0,0,0,0,0
+bed,Bed,placeable,999,180,40,60,none,,,,,,0,0,0,0,0
+slimeball,Slimeball,material,999,90,220,110,none,,,,,,0,0,0,0,0
+trash,Trash,material,999,100,100,100,none,,,,,,0,0,0,0,0
+rusty_can,Rusty Can,material,999,140,140,150,none,,,,,,0,0,0,0,0
+bass,Bass,consumable,999,70,110,60,none,,,,,,0,1,0,8,8
+trout,Trout,consumable,999,120,140,160,none,,,,,,0,3,0,10,10
+perch,Perch,consumable,999,180,160,50,none,,,,,,0,5,0,18,18
