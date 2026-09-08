@@ -14,12 +14,12 @@ Chop trees, fish, craft better tools, manage energy, and sleep through the day.
 
 ## Features
 
-- Homestead loop: chop → gather → craft → place → sleep
-- Energy and food
-- Fishing minigame
-- Cabin interior and outdoor homestead
-- Save / load
-- Crafting, collections, and a wood chipper
+- Homestead loop: chop trees → gather → craft → place → sleep
+- Energy and food, through fish
+- Fishing minigame, 3 different kinds of fish
+- Cabin interior and outdoor homestead locations
+- Save / load / settings
+- Crafting, collections, chests and a wood chipper
 
 ---
 
