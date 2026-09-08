@@ -54,6 +54,7 @@ My goal for this project is to create a refined playable RPG title that I am hap
 - Shovel item to dig up unwanted stumps
 - tree seeds
 - More polish on art, audio, and feel
+  
 The long-term goal is a cozy grind game with a bit of challenge, where chopping, exploring, and upgrading your lumberjack character is the game loop!
 
 ---
