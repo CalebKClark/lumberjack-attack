@@ -6,8 +6,7 @@ First playtest release.
 
 - Homestead loop: chop, craft, place, sleep
 - Energy and food
-- Fishing minigame
-- Cabin interior ↔ homestead
+- Fishing minigame + 3 fish
+- Cabin interior and homestead locations
 - Crafting, collections, skills
-- Save / load
-- World editor in dev builds (hidden in playtest zip)
+- Save / load / settings
