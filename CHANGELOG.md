@@ -9,7 +9,8 @@ First playtest release.
 - Fishing minigame + 3 fish
 - Cabin interior and homestead locations
 - Pine Tree
-- Crafting: Chest, Wood Chipper, Compact Pine Wood, Pine Axe.
+- Crafting: Chest, Wood Chipper, Compact Pine Wood, Pine Axe
 - Several items
 - Inventory, Skills, Collections, Stats
 - Save / load / settings
+- First song: "Lumberjack Attack Overture" plays in menu
