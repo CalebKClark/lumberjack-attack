@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://d3spuvst3bc4l"
+
+[deps]
+
+files=["res://data/tiles.name.translation", "res://data/tiles.solid.translation", "res://data/tiles.r.translation", "res://data/tiles.g.translation", "res://data/tiles.b.translation", "res://data/tiles.choppable.translation", "res://data/tiles.drop.translation", "res://data/tiles.regrowth.translation", "res://data/tiles.bed.translation", "res://data/tiles.placeable.translation", "res://data/tiles.fishable.translation", "res://data/tiles.foraging.translation", "res://data/tiles.toughness.translation", "res://data/tiles.drop.translation", "res://data/tiles.drop.translation"]
+
+source_file="res://data/tiles.csv"
+dest_files=["res://data/tiles.name.translation", "res://data/tiles.solid.translation", "res://data/tiles.r.translation", "res://data/tiles.g.translation", "res://data/tiles.b.translation", "res://data/tiles.choppable.translation", "res://data/tiles.drop.translation", "res://data/tiles.regrowth.translation", "res://data/tiles.bed.translation", "res://data/tiles.placeable.translation", "res://data/tiles.fishable.translation", "res://data/tiles.foraging.translation", "res://data/tiles.toughness.translation", "res://data/tiles.drop.translation", "res://data/tiles.drop.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

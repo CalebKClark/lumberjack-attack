@@ -1,29 +1,33 @@
-# Gradle
-.gradle/
-build/
+# Godot 4
+.godot/
+.mono/
+data_*/
+*.translation
+
+# Build
+.vs/
 bin/
-out/
-
-# IDE
-.idea/
-*.iml
-.classpath
-.project
-.settings/
-.vscode/
-
-# Local runtime
-assets/
-saves/
-settings/
-*.log
-dist-playtest/
+obj/
+*.user
+*.csproj.old
 
 # OS
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Secrets
-.env
-.env.*
+# Local
+*.log
+.import/
+__pycache__/
+*.pyc
+
+# Accidental LibGDX leftovers
+.gradle/
+build/
+core/
+lwjgl3/
+gradle/
+gradlew*
+*.gradle
+

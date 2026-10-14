@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://65e2wqfo4m2y"
+
+[deps]
+
+files=["res://data/transitions.col.translation", "res://data/transitions.row.translation", "res://data/transitions.target.translation", "res://data/transitions.spawn.translation", "res://data/transitions.spawn.translation"]
+
+source_file="res://data/transitions.csv"
+dest_files=["res://data/transitions.col.translation", "res://data/transitions.row.translation", "res://data/transitions.target.translation", "res://data/transitions.spawn.translation", "res://data/transitions.spawn.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

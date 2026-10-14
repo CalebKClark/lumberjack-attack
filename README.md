@@ -1,93 +1,47 @@
 # Lumberjack Attack
 
-A 2D top-down homestead game in **Java 17** and **LibGDX**.
+A 2D top-down homestead game. Chop trees, fish, craft, manage energy, and sleep through the day.
 
-Chop trees, fish, craft better tools, manage energy, and sleep through the day.
+**Version 0.11** is a Godot 4 / C# port of the first playtest. It is past 0.1 and not 0.2 yet. Pixel art is original.
 
-**Version:** 0.1.0 (released 2026-08-15)
+The Java 17 / LibGDX playtest is still available as [v0.1.0](https://github.com/CalebKClark/lumberjack-attack/releases/tag/v0.1.0) and on the `v0.1-libgdx` branch, including the Windows zip from that release.
 
-[![Java](https://img.shields.io/badge/Java-17-orange?logo=openjdk)](https://adoptium.net/)
-[![LibGDX](https://img.shields.io/badge/LibGDX-1.12.1-red)](https://libgdx.com/)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+## This version
 
----
+- Homestead loop: chop, gather, craft, place, fish, eat, and sleep
+- Fishing minigame
+- Energy, skills, collections, inventory, chests, and a wood chipper
+- Named saves from the title screen, plus settings for display and input
+- Data-driven items, recipes, fish, and maps under `data/`
+- Maps: homestead, cabin interior, aspen forest, a cave, and a dungeon entrance
+- Menu music: "Lumberjack Attack Overture"
+- A world editor on the title screen in this source tree (`ENABLE_WORLD_EDIT`)
 
-## Features
+Combat is not in yet. Extra maps are further along than the 0.1 homestead, and still short of a finished 0.2 area.
 
-- Homestead loop: chop trees → gather → craft → place → sleep
-- Energy and food, through fish
-- Fishing minigame, 3 different kinds of fish
-- Cabin interior and outdoor homestead locations
-- Save / load / settings
-- Crafting, collections, chests and a wood chipper
+## Run 0.11
 
----
+1. Install [Godot 4.7 .NET](https://godotengine.org/download) and the .NET 8 SDK
+2. Open this folder in Godot
+3. Let it import assets and build C#
+4. Press **F5**. The title screen has New Game and Load
 
-## How to play
-### Controls - can all be rebound if wanted
+## Version history
 
-- **WASD** — move
-- **Mouse** — aim / click to interact (chop, fish, place, attack)
-- **1–9** / scroll — hotbar
-- **E** — inventory / player menu
-- **Esc** — pause / cancel (also reels in while fishing)
-### Basic loop
-1. Leave the cabin and explore the homestead.
-2. Equip the starter axe, and chop pine trees for logs.
-3. Fish the pond (cast, wait for the bite flash, then play the fishing minigame).
-4. Eat fish to restore health and energy (actions cost energy).
-5. Craft at the menu (chests, wood chipper, better axe, etc.).
-6. Sleep in a bed to restore energy and advance the day.
-7. Save from the menu so your world progress sticks.
-Tip: keep an eye on the green energy bar — when it’s very low, you move slower.
+| Version | Engine | Where |
+| --- | --- | --- |
+| 0.1.0 | Java 17, LibGDX | Tag `v0.1.0`, branch `v0.1-libgdx`. First playtest, August 2026. |
+| 0.11 | Godot 4.7, C# | `main`. Engine port of the homestead loop. |
 
----
-
-## Vision
-Lumberjack Attack is a solo passion project. All pixel art, sound, music, and gameplay are all my own creation and will continue to be what adds on to this project.
-My goal for this project is to create a refined playable RPG title that I am happy with, and I can publish on steam. Aiming for a steam release sometime in 2027.
-
-**Direction after 0.1 preparing for 0.2**
-- New area: Aspen Forest
-- First dungeon inside the Aspen Forest
-- Combat system starts to fall into place
-- Shovel item to dig up unwanted stumps
-- tree seeds
-- More polish on art, audio, and feel
-  
-The long-term goal is a cozy grind game with a bit of challenge, where chopping, exploring, and upgrading your lumberjack character is the game loop!
-
----
-
-## Play
-
-1. Download **`LumberJackAttack-0.1.zip`** from [Releases](../../releases) (when published)
-2. Install **Java 17+** ([Adoptium](https://adoptium.net/))
-3. Unzip → run `run.bat` → **New Game**
-
-Windows playtest build.
-
----
-
-## Build from source
-
-```bat
-gradlew run
-```
-
-Requires JDK 17+.
-
----
+Notes for each version are in [CHANGELOG.md](CHANGELOG.md). How the systems fit together is in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ## Layout
 
-```
-src/lumberjack/   game code
-resources/        maps, CSV data, sprites, audio
-```
-
----
-
-## License
-
-MIT — see [LICENSE](LICENSE).
+| Path | Role |
+| --- | --- |
+| `data/` | CSV catalogs and `.map` files |
+| `scripts/game/` | Composition root (`Main`) and game events |
+| `scripts/world/` | Maps, tiles, trees, loot, placeables |
+| `scripts/ui/` | Title, HUD, pause menu, settings |
+| `scripts/` | Inventory, crafting, fishing, skills, save, and the other systems |
+| `assets/` | Sprites, font, and music |

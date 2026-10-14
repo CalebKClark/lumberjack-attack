@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c22sahsoxywb5"
+
+[deps]
+
+files=["res://data/items.name.translation", "res://data/items.category.translation", "res://data/items.max.translation", "res://data/items.r.translation", "res://data/items.g.translation", "res://data/items.b.translation", "res://data/items.tool.translation", "res://data/items.bonus.translation", "res://data/items.bonus.translation", "res://data/items.bonus.translation", "res://data/items.bonus.translation", "res://data/items.bonus.translation", "res://data/items.bonus.translation", "res://data/items.fishing.translation", "res://data/items.tree.translation", "res://data/items.food.translation", "res://data/items.food.translation", "res://data/items.placeable.translation"]
+
+source_file="res://data/items.csv"
+dest_files=["res://data/items.name.translation", "res://data/items.category.translation", "res://data/items.max.translation", "res://data/items.r.translation", "res://data/items.g.translation", "res://data/items.b.translation", "res://data/items.tool.translation", "res://data/items.bonus.translation", "res://data/items.bonus.translation", "res://data/items.bonus.translation", "res://data/items.bonus.translation", "res://data/items.bonus.translation", "res://data/items.bonus.translation", "res://data/items.fishing.translation", "res://data/items.tree.translation", "res://data/items.food.translation", "res://data/items.food.translation", "res://data/items.placeable.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

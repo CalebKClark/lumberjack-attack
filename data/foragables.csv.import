@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cob0r47j53ycx"
+
+[deps]
+
+files=["res://data/foragables.weight.translation", "res://data/foragables.pool.translation"]
+
+source_file="res://data/foragables.csv"
+dest_files=["res://data/foragables.weight.translation", "res://data/foragables.pool.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c3asf6qlaegur"
+
+[deps]
+
+files=["res://data/fish.weight.translation", "res://data/fish.min.translation", "res://data/fish.speed.translation", "res://data/fish.kind.translation"]
+
+source_file="res://data/fish.csv"
+dest_files=["res://data/fish.weight.translation", "res://data/fish.min.translation", "res://data/fish.speed.translation", "res://data/fish.kind.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

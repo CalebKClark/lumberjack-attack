@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://ddjqu85aco4pq"
+path="res://.godot/imported/lumberjack_font.fnt-cd1c74fabba8b2a7a77e4099b2238c96.fontdata"
+
+[deps]
+
+source_file="res://assets/fonts/custom_pixel/lumberjack_font.fnt"
+dest_files=["res://.godot/imported/lumberjack_font.fnt-cd1c74fabba8b2a7a77e4099b2238c96.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

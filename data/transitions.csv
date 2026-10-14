@@ -1,0 +1,8 @@
+map_id,col,row,target_map,spawn_col,spawn_row
+cabin_interior,21,24,homestead,16,11
+homestead,0,8,aspen_forest,38,31
+homestead,0,9,aspen_forest,38,32
+aspen_forest,39,31,homestead,1,8
+aspen_forest,39,32,homestead,1,9
+aspen_forest,9,4,skeleton_dungeon_enterance,9,14
+skeleton_dungeon_enterance,9,15,aspen_forest,9,5

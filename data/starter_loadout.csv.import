@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bdsh26l7siddu"
+
+[deps]
+
+files=["res://data/starter_loadout.item.translation", "res://data/starter_loadout.quantity.translation"]
+
+source_file="res://data/starter_loadout.csv"
+dest_files=["res://data/starter_loadout.item.translation", "res://data/starter_loadout.quantity.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

@@ -1,0 +1,13 @@
+<Project Sdk="Godot.NET.Sdk/4.7.2">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <RootNamespace>LumberjackAttack</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <!-- World editor: remove this PropertyGroup (or the define) for shipping builds. -->
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ENABLE_WORLD_EDIT</DefineConstants>
+  </PropertyGroup>
+</Project>

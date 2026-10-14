@@ -1,0 +1,11 @@
+category,entry_id,display_name,discovery_type,discovery_id,tooltip,sort_order
+wood,pine_log,Pine Log,item,pine_log,"Pine trees are found near the cabin.",0
+wood,aspen_log,Aspen Log,item,aspen_log,"Aspen trees grow in Aspen Forest.",1
+wood,oak_wood,Oak Wood,item,oak_wood,,2
+wood,birch_wood,Birch Wood,item,birch_wood,,3
+wood,cedar_wood,Cedar Wood,item,cedar_wood,,4
+wood,maple_wood,Maple Wood,item,maple_wood,,5
+combat,slime,Slime,enemy,slime,"Found around the cabin, drops slimeballs.",0
+fish,bass,Bass,item,bass,"Can be caught at cabin pond.",0
+fish,trout,Trout,item,trout,"Can be caught at cabin pond.",1
+fish,perch,Perch,item,perch,"Can be caught at cabin pond.",2
